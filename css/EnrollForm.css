@@ -1,0 +1,213 @@
+.Enroll_body {
+	 height: 100%;
+	 font-size: 1rem;
+}
+ .blackboard {
+	/* position: relative;
+	 */
+	 max-width: 100%;
+	 margin: 7% auto;
+	 border: rgba(205, 133, 63, 1.0) solid 12px;
+	 border-top: #7a5f38 solid 12px;
+	 border-left: rgba(205, 133, 63, 1.0) solid 12px;
+	 border-bottom: #7a5f38 solid 12px;
+	/* box-shadow: 0px 0px 6px 5px rgba(100, 189, 99, 0.1), 0px 0px 0px 2px #c2a782, 0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(100, 189, 99, 0.5);
+	 */
+	 background-image: radial-gradient(circle at left 30%, rgba(52, 107, 49, 0.3), rgba(52, 107, 49, 0.3) 80px, rgba(52, 107, 49, 0.5) 100px, rgba(52, 107, 49, 0.5) 160px, rgba(52, 107, 49, 0.5)), linear-gradient(215deg, transparent, transparent 100px, #346b31 260px, #346b31 320px, transparent), radial-gradient(circle at right, #346b31, rgba(52, 107, 49, 1));
+	 background-color: #346b31;
+}
+ .blackboard > h3 {
+	/* font-family: 'Permanent Marker', cursive;
+	 */
+	 font-size: 1.2rem;
+	 color: rgba(238, 238, 238, 0.9);
+	 text-align: center;
+	/* padding: 12% auto;
+	 */
+}
+ .blackboard > p {
+	 font-size: 1.2rem;
+	 color: rgba(238, 238, 238, 0.9);
+	 text-align: center;
+	 font-family: 'Indie Flower', cursive;
+	 word-spacing: 3px;
+	 letter-spacing: 2px;
+}
+ .form {
+	 padding: 10%;
+}
+ .formelement {
+	 display: flex;
+	 flex-flow: row wrap;
+	 margin-bottom: 5%;
+	 font-size: 1rem;
+	 justify-content: flex-start;
+	 align-items: flex-start;
+	 column-gap: 5%;
+}
+ .form label {
+	 color: rgba(238, 238, 238, 0.9);
+	 width: 50px;
+}
+ label.queslabel {
+	 width: 140px;
+	 margin-bottom: 3%;
+	/* display: block;
+	 */
+}
+ .form input {
+	/* vertical-align: middle;
+	 */
+	 padding-left: 2%;
+	 background-color: rgba(238, 238, 238, 0.2);
+	 border: none;
+	 border-radius: 2px;
+	 font-family: 'Indie Flower', cursive;
+	 font-size: 1.2rem;
+	 color: rgba(238, 238, 238, 0.9);
+	 line-height: 1.5rem;
+	 outline: none;
+	 max-width: 100%;
+	 text-shadow: none;
+}
+ .form input[type="submit"] {
+	 cursor: pointer;
+	 color: rgba(238, 238, 238, 1.0);
+	 line-height: 1rem;
+	 padding: 5%;
+	/* background: rgba(238, 238, 238, 0.2);
+	 */
+	 background-color: crimson;
+	/* color: rgba(238, 238, 238, 0.3);
+	 */
+	 text-shadow: none;
+}
+ .form input[type="submit"]:focus, .form input[type="submit"]:hover {
+	 background: rgba(238, 238, 238, 0.2);
+	 color: crimson;
+}
+ .form input::-moz-selection {
+	 color: rgba(238, 238, 238, 0.9);
+	 text-shadow: none;
+}
+ .form input::selection {
+	 color: rgba(238, 238, 238, 0.9);
+	 text-shadow: none;
+}
+ .form input[type='radio'] {
+	 width: 40px;
+	 height: 20px;
+	 vertical-align: middle;
+	 margin: 5% auto;
+	 display: inline-block;
+	/* margin-right: 1%;
+	 */
+	/* margin: 5%;
+	 */
+}
+ .form select {
+	 outline: none;
+	 color: rgba(238, 238, 238, 1.0);
+	 background-color: #ed365b;
+	 border: none;
+	 font-size: 1.2rem;
+	 line-height: 1.2rem;
+	 font-family: 'Indie Flower', cursive;
+}
+ .form select option {
+	 color: rgba(238, 238, 238, 1.0);
+	 background-color: #ed365b;
+	 outline: none;
+	 font-family: 'Indie Flower', cursive;
+}
+ .radiogroup {
+	 display: flex;
+	 flex-flow: row wrap;
+	/* column-gap: .1%;
+	 */
+}
+/* .radiogroup div{
+	 width:100%;
+	 padding: 1%;
+}
+ */
+
+ .response {
+	 padding: 10% 5%;
+	 text-align: center;
+	 font-size: 1.2rem;
+	 font-family: 'Indie Flower', cursive;
+	 color: rgba(238, 238, 238, 0.9);
+}
+ .response p {
+	 font-size: 1.3rem;
+	 text-align: center;
+	 margin-bottom: 10%;
+}
+ .response button {
+	 font-family: 'Indie Flower', cursive;
+	 font-size: 1rem;
+	 cursor: pointer;
+	 padding: 3%;
+	 background-color: crimson;
+	 box-shadow: none;
+	 border: none;
+	 color: rgba(238, 238, 238, 0.9);
+	 border-radius: 1px;
+	 word-spacing: 3px;
+	 letter-spacing: 2px;
+}
+ .response button:hover, .response button:active {
+	 background-color: rgba(238, 238, 238, 0.9);
+	 color: crimson;
+}
+ @media screen and (min-width: 420px) {
+	 .blackboard {
+		 margin: 7% auto 0;
+	}
+	 .form {
+		 padding: 4%;
+	}
+	 .form label {
+		 padding-bottom: 0;
+	}
+	 .form input[type='submit'] {
+		 padding: 2%;
+	}
+}
+ .response {
+	 padding: 10% 5%;
+	 text-align: center;
+	 font-size: 1.2rem;
+	 font-family: 'Indie Flower', cursive;
+	 color: rgba(238, 238, 238, 0.9);
+}
+ .response p {
+	 font-size: 1.3rem;
+	 text-align: center;
+	 margin-bottom: 10%;
+}
+ .response button {
+	 font-family: 'Indie Flower', cursive;
+	 font-size: 1rem;
+	 cursor: pointer;
+	 padding: 3%;
+	 background-color: crimson;
+	 box-shadow: none;
+	 border: none;
+	 color: rgba(238, 238, 238, 0.9);
+	 border-radius: 1px;
+	 word-spacing: 3px;
+	 letter-spacing: 2px;
+}
+ .response button:hover, .response button:active {
+	 background-color: rgba(238, 238, 238, 0.9);
+	 color: crimson;
+}
+ @media screen and (min-width: 576px) {
+	 .blackboard {
+		 max-width: 70%;
+		 margin: 7% auto 0;
+	}
+}
+ 

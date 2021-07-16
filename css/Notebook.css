@@ -1,0 +1,446 @@
+ 
+ /* Training Section on First Page */
+ .ltcontainer {
+	 padding: 8% 0 0;
+}
+ @media screen and (min-width: 807px) {
+	 .tcontainer {
+		 padding: 3% 0 0;
+	}
+}
+ .ltcontentBox {
+	 display: flex;
+	 flex-flow: row wrap;
+	 column-gap: 5%;
+	 -moz-column-gap: 5%;
+	 -webkit-column-gap: 5%;
+	 justify-content: center;
+	 align-items: flex-start;
+}
+ @media screen and (min-width: 1200px) {
+	 .ltcontentBox {
+		 justify-content: flex-start;
+	}
+}
+ .ltcontentBox .ltpaper {
+	 max-width: 300px;
+	 height: 100%;
+	 margin: 7% auto auto;
+	 padding: 40px 0;
+	 background-color: white;
+	 box-shadow: 0px 0px 5px 0px #888;
+	 font-family: 'Dancing Script', cursive;
+	 font-weight: bold;
+	 position: relative;
+}
+ .ltcontentBox .ltpaper:first-of-type {
+	 margin: 2% auto;
+}
+ @media screen and (min-width: 600px) {
+	 .ltcontentBox .ltpaper {
+		 max-width: 300px;
+		 height: 100%;
+		 margin: 7% auto auto;
+		 padding: 40px 0;
+		 background-color: white;
+		 box-shadow: 0px 0px 5px 0px #888;
+		 font-family: 'Dancing Script', cursive;
+		 font-weight: bold;
+		 position: relative;
+	}
+	 .ltcontentBox .ltpaper:nth-of-type(2) {
+		 margin: auto auto;
+	}
+}
+ @media screen and (min-width: 1163px) {
+	 .ltcontentBox .ltpaper {
+		 max-width: 300px;
+		 height: 590px;
+		 margin: 7% auto auto;
+		 padding: 40px 0;
+		 background-color: white;
+		 box-shadow: 0px 0px 5px 0px #888;
+		 font-family: 'Dancing Script', cursive;
+		 font-weight: bold;
+		 position: relative;
+	}
+	 .ltcontentBox .ltpaper:nth-of-type(3) {
+		 margin: auto auto;
+	}
+}
+ .ltcontentBox .ltpaper:nth-of-type(2n+1) {
+	 border: 0 solid yellowgreen;
+}
+ .ltcontentBox .ltpaper:nth-of-type(2n+1)::before {
+	 content: '';
+	 width: 100%;
+	 height: 50px;
+	 position: absolute;
+	 background-color: yellowgreen;
+	 top: 0;
+}
+ .ltcontentBox .ltpaper:nth-of-type(2n+1)::after {
+	 content: '';
+	 width: 100%;
+	 height: 30px;
+	 position: absolute;
+	 background-color: yellowgreen;
+	 bottom: 0;
+}
+ .ltcontentBox .ltpaper:nth-of-type(2n) {
+	 border: 0 solid yellowgreen;
+}
+ .ltcontentBox .ltpaper:nth-of-type(2n)::before {
+	 content: '';
+	 width: 100%;
+	 height: 50px;
+	 position: absolute;
+	 background-color: yellowgreen;
+	 top: 0;
+}
+ .ltcontentBox .ltpaper:nth-of-type(2n)::after {
+	 content: '';
+	 width: 100%;
+	 height: 30px;
+	 position: absolute;
+	 background-color: yellowgreen;
+	 bottom: 0;
+}
+ .ltcontentBox .ltpaper .ltfeatureHeading {
+	 color: blue;
+	 font-size: 13.7px;
+	 line-height: 20px;
+	 padding-left: 16px;
+	 padding-right: 16px;
+	 text-transform: uppercase;
+	 text-align: center;
+	 font-family: 'Dancing Script', cursive;
+	 word-spacing: 4px;
+	 letter-spacing: 1px;
+}
+ .ltcontentBox .ltpaper .ltfeatureHeading h4 {
+	 color: #fa8925;
+	 font-size: 1.2rem;
+}
+ .ltcontentBox .ltpaper .ltfeatureHeading h5 {
+	 margin: 1% auto;
+}
+ .ltcontentBox .ltpaper .ltfeatureHeading h5:last-of-type {
+	 margin-bottom: 15%;
+}
+ .ltcontentBox .ltpaper .ltfeatureHeading a:link {
+	 font-size: 1.2rem;
+	 color: #c22246;
+	 padding: 3%;
+}
+ .ltcontentBox .ltpaper .ltfeatureHeading a:visited {
+	 color: blueviolet;
+}
+ .ltcontentBox .ltpaper .ltfeatureHeading a:hover {
+	 color: white;
+	 background-color: #c22246;
+}
+ .ltcontentBox .ltpaper .ltfeatureHeading a:active {
+	 color: white;
+	 background-color: #c22246;
+}
+ .ltcontentBox .ltpaper .ltimageBox {
+	 margin: 10% auto;
+	 box-shadow: 0px 0px 5px 0px teal;
+	 width: 200px;
+}
+ .ltcontentBox .ltpaper .ltimageBox .ltimage {
+	 padding: 1px;
+	 width: 100%;
+	 height: auto;
+}
+
+/* About Us Section on First Page */
+ .lcontainer {
+	 padding: 0;
+}
+ @media screen and (min-width: 807px) {
+	 .container {
+		 padding: 0;
+	}
+}
+ .lcontentBox {
+	 display: flex;
+	 flex-flow: row wrap;
+	 column-gap: 5%;
+	 -moz-column-gap: 5%;
+	 -webkit-column-gap: 5%;
+	 justify-content: center;
+	 align-items: flex-start;
+}
+ @media screen and (min-width: 1200px) {
+	 .lcontentBox {
+		 justify-content: flex-start;
+	}
+}
+ .lcontentBox .lpaper {
+	 max-width: 300px;
+	 height: 100%;
+	 margin: 7% auto auto;
+	 padding: 40px 0;
+	 background-color: white;
+	 box-shadow: 0px 0px 5px 0px #888;
+	 font-family: 'Dancing Script', cursive;
+	 font-weight: bold;
+	 position: relative;
+	 border: 0 solid #ff1493;
+}
+ .lcontentBox .lpaper:first-of-type {
+	 margin: 2% auto;
+}
+ @media screen and (min-width: 600px) {
+	 .lcontentBox .lpaper {
+		 max-width: 300px;
+		 height: 590px;
+		 margin: 7% auto auto;
+		 padding: 40px 0;
+		 background-color: white;
+		 box-shadow: 0px 0px 5px 0px #888;
+		 font-family: 'Dancing Script', cursive;
+		 font-weight: bold;
+		 position: relative;
+	}
+	 .lcontentBox .lpaper:nth-of-type(2) {
+		 margin: auto auto;
+	}
+}
+ @media screen and (min-width: 1163px) {
+	 .lcontentBox .lpaper {
+		 max-width: 300px;
+		 height: 590px;
+		 margin: 7% auto auto;
+		 padding: 40px 0;
+		 background-color: white;
+		 box-shadow: 0px 0px 5px 0px #888;
+		 font-family: 'Dancing Script', cursive;
+		 font-weight: bold;
+		 position: relative;
+	}
+	 .lcontentBox .lpaper:nth-of-type(3) {
+		 margin: auto auto;
+	}
+}
+ .lcontentBox .lpaper::before {
+	 content: '';
+	 width: 100%;
+	 height: 50px;
+	 position: absolute;
+	 background-color: #ff1493;
+	 top: 0;
+}
+ .lcontentBox .lpaper::after {
+	 content: '';
+	 width: 100%;
+	 height: 30px;
+	 position: absolute;
+	 background-color: #ff1493;
+	 bottom: 0;
+}
+ .lcontentBox .lpaper .lfeatureHeading {
+	 color: blue;
+	 font-size: 13.7px;
+	 line-height: 20px;
+	 padding-left: 16px;
+	 padding-right: 16px;
+	 text-transform: uppercase;
+	 text-align: center;
+	 font-family: 'Dancing Script', cursive;
+	 word-spacing: 4px;
+	 letter-spacing: 1px;
+}
+ .lcontentBox .lpaper .lfeatureHeading h4 {
+	 color: #fa8925;
+	 font-size: 1.2rem;
+}
+ .lcontentBox .lpaper .lfeatureHeading h5 {
+	 margin: 1% auto;
+}
+ .lcontentBox .lpaper .lfeatureHeading h5:last-of-type {
+	 margin-bottom: 15%;
+}
+ .lcontentBox .lpaper .lfeatureHeading a:link {
+	 font-size: 1.2rem;
+	 color: #c22246;
+	 padding: 3%;
+}
+ .lcontentBox .lpaper .lfeatureHeading a:visited {
+	 color: blueviolet;
+}
+ .lcontentBox .lpaper .lfeatureHeading a:hover {
+	 color: white;
+	 background-color: #c22246;
+}
+ .lcontentBox .lpaper .lfeatureHeading a:active {
+	 color: white;
+	 background-color: #c22246;
+}
+ .lcontentBox .lpaper .limageBox {
+	 margin: 10% auto;
+	 box-shadow: 0px 0px 5px 0px teal;
+	 width: 240px;
+}
+ .lcontentBox .lpaper .limageBox .limage {
+	 padding: 1px;
+	 width: 100%;
+	 height: auto;
+}
+
+/* Training For Students */
+ .contentBox {
+	 display: flex;
+	 flex-flow: row wrap;
+	 column-gap: 5%;
+	 -moz-column-gap: 5%;
+	 -webkit-column-gap: 5%;
+	 justify-content: center;
+	 align-items: flex-start;
+}
+ @media screen and (min-width: 1200px) {
+	 .contentBox {
+		 justify-content: center;
+	}
+}
+ .contentBox .featureHeading {
+	 font-size: 1.5rem;
+	 text-align: center;
+	 font-family: 'Dancing Script', cursive;
+	 color: blue;
+	 text-decoration: underline;
+	 margin: 20% auto 1%;
+}
+ .contentBox .paper {
+	 max-width: 600px;
+	 height: 100%;
+	 margin: 7% auto auto;
+	 padding: 40px 0;
+	 background-color: white;
+	 box-shadow: 0px 0px 5px 0px #888;
+	 font-family: 'Dancing Script', cursive;
+	 font-weight: bold;
+	 position: relative;
+	 margin: 0;
+}
+ .contentBox .paper:nth-of-type(1) {
+	 border: 2px solid yellowgreen;
+}
+ .contentBox .paper:nth-of-type(1)::before {
+	 content: '';
+	 width: 100%;
+	 height: 50px;
+	 position: absolute;
+	 background-color: yellowgreen;
+	 top: 0;
+}
+ .contentBox .paper:nth-of-type(1)::after {
+	 content: '';
+	 width: 100%;
+	 height: 30px;
+	 position: absolute;
+	 background-color: yellowgreen;
+	 bottom: 0;
+}
+ .contentBox .paper:nth-of-type(2) {
+	 border: 2px solid #fa5457;
+}
+ .contentBox .paper:nth-of-type(2)::before {
+	 content: '';
+	 width: 100%;
+	 height: 50px;
+	 position: absolute;
+	 background-color: #fa5457;
+	 top: 0;
+}
+ .contentBox .paper:nth-of-type(2)::after {
+	 content: '';
+	 width: 100%;
+	 height: 30px;
+	 position: absolute;
+	 background-color: #fa5457;
+	 bottom: 0;
+}
+ .contentBox .paper:nth-of-type(3) {
+	 border: 2px solid yellowgreen;
+}
+ .contentBox .paper:nth-of-type(3)::before {
+	 content: '';
+	 width: 100%;
+	 height: 50px;
+	 position: absolute;
+	 background-color: yellowgreen;
+	 top: 0;
+}
+ .contentBox .paper:nth-of-type(3)::after {
+	 content: '';
+	 width: 100%;
+	 height: 30px;
+	 position: absolute;
+	 background-color: yellowgreen;
+	 bottom: 0;
+}
+ .contentBox .paper .content .description {
+	 margin-bottom: 20px;
+	 font-size: 16px;
+	 overflow: hidden;
+	 padding-left: 16px;
+	 padding-right: 16px;
+	 line-height: 20px;
+	 letter-spacing: 1px;
+	 word-spacing: 5px;
+	 color: black;
+}
+
+
+/* Rest of the Pages */
+ .LearningApproach_dhicontentBox__v8J4R {
+	 max-width: 600px;
+	 margin: auto;
+}
+ .LearningApproach_dhicontentBox__v8J4R .LearningApproach_dhipaper__3PBtT {
+	 max-width: 600px;
+	 height: 100%;
+	 margin: 7% auto auto;
+	 padding: 40px 0;
+	 background-color: white;
+	 box-shadow: 0px 0px 5px 0px #888;
+	 font-family: 'Dancing Script', cursive;
+	 font-weight: bold;
+	 position: relative;
+	 margin: 0 auto;
+	 border: 2px solid #01b4bc;
+}
+ .LearningApproach_dhicontentBox__v8J4R .LearningApproach_dhipaper__3PBtT::before {
+	 content: '';
+	 width: 100%;
+	 height: 50px;
+	 position: absolute;
+	 background-color: #01b4bc;
+	 top: 0;
+}
+ .LearningApproach_dhicontentBox__v8J4R .LearningApproach_dhipaper__3PBtT::after {
+	 content: '';
+	 width: 100%;
+	 height: 30px;
+	 position: absolute;
+	 background-color: #01b4bc;
+	 bottom: 0;
+}
+ .LearningApproach_dhicontentBox__v8J4R .LearningApproach_dhipaper__3PBtT .LearningApproach_content__35KFK .LearningApproach_description__1wEAy {
+	 margin-bottom: 20px;
+	 font-size: 16px;
+	 overflow: hidden;
+	 padding-left: 16px;
+	 padding-right: 16px;
+	 line-height: 20px;
+	 letter-spacing: 1px;
+	 word-spacing: 5px;
+	 color: black;
+}
+ .LearningApproach_dhicontentBox__v8J4R .LearningApproach_dhipaper__3PBtT .LearningApproach_content__35KFK .LearningApproach_description__1wEAy .LearningApproach_bold__Del6C {
+	 background-color: #9acd32;
+}
+ 

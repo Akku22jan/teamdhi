@@ -1,0 +1,191 @@
+.menucontainer {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+	 margin: 10% auto;
+	 border: 10px solid #346b31;
+	 border-top: 10px solid #3d7c39;
+	 border-bottom: 10px solid #3d7c39;
+	 overflow: hidden;
+	 padding: 0;
+	 height: 100%;
+	 color: white;
+	 background-image: linear-gradient(#cd853f, #ddac7c);
+}
+ @media screen and (min-width: 768px) {
+	 .menucontainer {
+		 margin: 5% auto;
+	}
+}
+ .menucontainer .navbrand {
+	 position: fixed;
+	 width: 100%;
+	 display: block;
+	 color: #fcfcfc;
+	 top: 0;
+	 left: 0;
+	 padding: 2%;
+	 background-color: blueviolet;
+	 z-index: 100;
+}
+ .menucontainer .navbrand a {
+	 font-weight: bold;
+	 display: flex;
+}
+ .menucontainer .navbrand a .dhi {
+	 font-size: 1.5rem;
+}
+ @media screen and (min-width: 375px) {
+	 .menucontainer .navbrand a .dhi {
+		 font-size: 2rem;
+	}
+}
+ @media screen and (min-width: 600px) {
+	 .menucontainer .navbrand a .dhi {
+		 font-size: 2.5rem;
+	}
+}
+ .menucontainer .navbrand a p {
+	 margin: auto 2%;
+	 font-size: 0.8rem;
+	 text-transform: uppercase;
+	 text-align: left;
+}
+ @media screen and (min-width: 374.8px) {
+	 .menucontainer .navbrand a p {
+		 font-size: 1.06rem;
+	}
+}
+ @media screen and (min-width: 600px) {
+	 .menucontainer .navbrand a p {
+		 font-size: 1.5rem;
+		 margin: auto 2%;
+	}
+}
+ .menucontainer .navbrand a p span {
+	 display: block;
+	 font-size: 0.75rem;
+	 text-transform: capitalize;
+	 font-weight: normal;
+	 text-align: center;
+}
+ @media screen and (min-width: 370px) {
+	 .menucontainer .navbrand a p span {
+		 font-size: 0.9rem;
+	}
+}
+ @media screen and (min-width: 600px) {
+	 .menucontainer .navbrand a p span {
+		 font-size: 1.3rem;
+		 margin: auto 2%;
+	}
+}
+ .menucontainer h2 {
+	 color: white;
+	 font-family: 'Dancing Script', cursive;
+	 font-size: 2rem;
+}
+ .navcontainer {
+	 border-top: 10px solid #3d7c39;
+	 border-bottom: 10px solid #3d7c39;
+	 overflow: hidden;
+	 padding: 0;
+	 height: 100%;
+	 color: white;
+	 background-image: linear-gradient(#985f28, peru 5px, #ddac7c 100px, #edd2b8 195px, #3b7937 195px, #3b7937 197px, #346b31 197px, #346b31 203px, #2d5d2b 203px, #2d5d2b 205px);
+	 background-size: 10% 205px;
+}
+ .bookshelf {
+	 list-style: none;
+	 padding: 0;
+	 margin: 0;
+	 display: flex;
+	 align-items: center;
+	 justify-content: flex-start;
+	 flex-flow: row wrap;
+	 width: 250px;
+	 height: 615px;
+}
+ @media screen and (min-width: 340px) {
+	 .bookshelf {
+		 width: 300px;
+		 height: 615px;
+	}
+}
+ @media screen and (min-width: 450px) {
+	 .bookshelf {
+		 width: 420px;
+		 height: 410px;
+	}
+}
+ @media screen and (min-width: 810px) {
+	 .bookshelf {
+		 width: 780px;
+		 height: 205px;
+	}
+}
+ .book, .activebook {
+	 height: 175px;
+	 width: 50px;
+	 margin-top: 20px;
+	 margin-bottom: 10px;
+	/* display: inline-block;
+	 */
+	 font-size: 1rem;
+	 font-family: Verdana, sans-serif;
+	 transition: transform 0.2s ease-in-out;
+	 cursor: pointer;
+	 z-index: 15;
+	 perspective: 300px;
+	 perspective-origin: left;
+}
+ @media screen and (min-width: 340px) {
+	 .book, .activebook {
+		 width: 60px;
+	}
+}
+ .book:nth-of-type(4n+3), .activebook:nth-of-type(4n+3) {
+	 background-color: yellowgreen;
+	 border-left: 2px solid #aed75b;
+	 border-right: 2px solid #7ba428;
+}
+ .book:nth-of-type(4n+1), .activebook:nth-of-type(4n+1) {
+	 background-color: #01b4bc;
+	 border-left: 2px solid #01e5ef;
+	 border-right: 2px solid #018389;
+}
+ .book:nth-of-type(4n), .activebook:nth-of-type(4n) {
+	 background-color: deeppink;
+	 border-left: 2px solid #ff47aa;
+	 border-right: 2px solid #e00079;
+}
+ .book:nth-of-type(4n+2), .activebook:nth-of-type(4n+2) {
+	 background-color: #fa5457;
+	 border-left: 2px solid #fb8688;
+	 border-right: 2px solid #f92226;
+}
+ .book:hover, .bookhr:hover {
+	 transform: scale(1.05);
+	 transform: translate(-2px, -2px);
+	 transition: transform 0.2s ease-in-out;
+}
+ .book p, .activebook p {
+	 writing-mode: vertical-rl;
+	 margin: 3% auto;
+	 padding: 15% 0 0 5%;
+	 font-size: 1em;
+	 text-align: left;
+	 vertical-align: middle;
+}
+ .activebook {
+	 visibility: collapse;
+	/* display: inline-block;
+	 */
+	 font-size: 0.9em;
+	 font-family: Verdana, sans-serif;
+	/* transform: translateZ(5px);
+	 */
+	 color: black;
+}
+ 

@@ -1,0 +1,102 @@
+.Director_entireContainer {
+	 display: flex;
+	 flex-flow: column nowrap;
+	 margin-bottom: 5%;
+}
+ @media screen and (min-width: 768px) {
+	 .Director_entireContainer {
+		 flex-flow: row nowrap;
+		 background-color: #f8de50;
+		 box-shadow: 0 0 5px gray;
+	}
+}
+ .Director_entireContainer .Director_introContainer {
+	 display: flex;
+	 flex-flow: row nowrap;
+	 box-shadow: 0 0 5px gray;
+	 background-color: #f8de50;
+	 padding: 2%;
+	 justify-content: center;
+	 align-items: center;
+}
+ @media screen and (min-width: 768px) {
+	 .Director_entireContainer .Director_introContainer {
+		 flex-flow: column wrap;
+		 box-shadow: 0 0 0 gray;
+		 align-self: center;
+	}
+}
+ .Director_entireContainer .Director_introContainer .Director_imageBox {
+	 flex-shrink: 1;
+	 margin-right: 3%;
+	 align-self: center;
+}
+ @media screen and (min-width: 500px) {
+	 .Director_entireContainer .Director_introContainer .Director_imageBox {
+		 margin: 0;
+	}
+}
+ .Director_entireContainer .Director_introContainer .Director_imageBox img {
+	 border-radius: 50%;
+	 width: 85%;
+	 margin: auto;
+}
+ @media screen and (min-width: 500px) {
+	 .Director_entireContainer .Director_introContainer .Director_imageBox img {
+		 display: block;
+		 margin: auto;
+		 width: 50%;
+	}
+}
+ @media screen and (min-width: 768px) {
+	 .Director_entireContainer .Director_introContainer .Director_designation {
+		 margin: auto;
+	}
+}
+ .Director_entireContainer .Director_introContainer .Director_designation h3 {
+	 font-size: 0.95rem;
+	 text-align: center;
+	 padding: 0;
+	 margin: 4%;
+	 color: #8a0000;
+}
+ @media screen and (min-width: 768px) {
+	 .Director_entireContainer .Director_introContainer .Director_designation h3 {
+		 text-align: center;
+		 margin: 4%;
+	}
+}
+ .Director_entireContainer .Director_introContainer .Director_designation p {
+	 margin: 0;
+	 padding-bottom: 2%;
+	 font-size: 12px;
+	 text-align: left;
+}
+ .Director_entireContainer .Director_introContainer .Director_designation p span {
+	 font-weight: bold;
+	 color: #018389;
+}
+ @media screen and (min-width: 768px) {
+	 .Director_entireContainer .Director_introContainer .Director_designation p {
+		 text-align: center;
+		 font-size: 0.85rem;
+	}
+}
+ .Director_entireContainer .Director_aboutDescription {
+	 box-shadow: 0 0 10px gray;
+	 margin-top: 3%;
+	 padding: 3%;
+	 background-color: #f8de50;
+}
+ @media screen and (min-width: 768px) {
+	 .Director_entireContainer .Director_aboutDescription {
+		 flex-basis: 60%;
+		 padding-left: 5%;
+		 box-shadow: 0 0 0 gray;
+		 align-self: center;
+	}
+	 .Director_entireContainer .Director_aboutDescription p {
+		 font-size: 0.9rem;
+	}
+}
+ 
