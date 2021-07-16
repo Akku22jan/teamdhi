@@ -142,9 +142,9 @@
   /* background-color: #c22246; */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 3%; /* Some padding */
+  padding: 2%; /* Some padding */
   border-radius: 50%; /* Rounded corners */
-  font-size: 0.8rem; /* Increase font size */
+  font-size: 1.5rem; /* Increase font size */
   /* transform: rotate(-90deg); */
 }
 
